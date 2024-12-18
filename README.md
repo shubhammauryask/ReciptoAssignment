@@ -1,8 +1,4 @@
-# recipto
-
-A new Flutter project.
-
-## Getting Started
+# Recipto
 
 # Flutter Developer Assignment  
 
