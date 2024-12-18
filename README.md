@@ -4,16 +4,29 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Flutter Developer Assignment  
 
-A few resources to get you started if this is your first Flutter project:
+## Overview  
+This project is a Flutter-based application showcasing a **Home Screen** with a grid of product and offer cards. The cards are dynamically rendered using reusable widgets and a clean modular structure.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features  
+- A **Home Screen** displaying:  
+  - **Product Cards**: Highlighting product details.  
+  - **Offer Cards**: Showcasing special offers.  
+- Designed with `GridView` for a responsive and adaptive layout.  
+- Separate models and widgets for better reusability and scalability.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Code Structure  
+### Models  
+- `ProductModel`: Defines product attributes (e.g., title, price, image).  
+- `OfferModel`: Defines offer attributes (e.g., title, discount, description).  
+
+### Widgets  
+- `ProductCard`: A widget for displaying individual product details.  
+- `OfferCard`: A widget for displaying promotional offers.  
+
+### GridView Implementation  
+The `GridView` dynamically renders `ProductCard` and `OfferCard` widgets based on the data passed through the models.  
 
 ![image alt](https://github.com/shubhammauryask/ReciptoAssignment/blob/ab9b53f08135bdacc283bd386faa53da9b42b36a/WhatsApp%20Image%202024-12-18%20at%2018.36.09_ff369a0f.jpg)
 ![image alt](https://github.com/shubhammauryask/ReciptoAssignment/blob/ab9b53f08135bdacc283bd386faa53da9b42b36a/WhatsApp%20Image%202024-12-18%20at%2018.36.08_daa99a4c.jpg)
